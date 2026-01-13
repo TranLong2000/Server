@@ -1,0 +1,13 @@
+{
+  "services": [
+    {
+      "name": "ollama",
+      "volumes": [
+        {
+          "name": "ollama-storage",
+          "target": "/root/.ollama"
+        }
+      ]
+    }
+  ]
+}
